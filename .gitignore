@@ -1,0 +1,32 @@
+# scala-cli build directories
+.scala-build/
+.sclicache/
+.bloop
+.bsp/
+.metals
+
+# native-image output
+native-image-output/
+*.native
+*.exe
+*.dll
+*.so
+*.dylib
+
+# general build output
+out/
+target/
+dist/
+
+# macOS metadata
+.DS_Store
+
+# log files
+*.log
+
+# editor/IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
